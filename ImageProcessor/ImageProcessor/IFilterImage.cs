@@ -9,5 +9,8 @@ namespace ImageProcessor
     public interface IFilterImage
     {
         long Sum(long a, long b);
+        long Mul(long a, long b, long c);
     }
+    
+    
 }
