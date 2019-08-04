@@ -12,5 +12,10 @@ namespace ImageProcessor
         {
             return a + b;
         }
+        
+        public long Mul(long a, long b, long c)
+        {
+            return a * b * c;
+        }
     }
 }
